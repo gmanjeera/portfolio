@@ -29,7 +29,7 @@ img.article-thumbnail {
   min-width: 0 !important; 
 }
 </style>
-# Featured Articles
+# Latest Articles
 
 {% assign sorted_articles = site.articles | sort: 'date' | reverse %}
 {% for article in sorted_articles limit: 5 %}
@@ -60,5 +60,5 @@ img.article-thumbnail {
 {% endfor %}
 
 <p class="text-center">
-  <a href="/articles/">View All {{ site.articles | size }} Published Articles &rarr;</a>
+  <a href="{{ '/articles/' | relative_url }}">View All Published Articles &rarr;</a>
 </p>

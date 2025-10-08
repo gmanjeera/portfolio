@@ -24,9 +24,9 @@ linkedin_username: manjeera-gowravaram
 description: >- # this means to ignore newlines until "baseurl:"
   Ph.D in Biochemistry from Freie Universität Berlin and a post-doc from Heinrich Heine University Düsseldorf. Currently working as a freelance science writer.
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog
 
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://gmanjeera.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # github_username:  jekyll
 
